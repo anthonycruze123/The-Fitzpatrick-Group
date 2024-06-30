@@ -1,0 +1,394 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Fitz_head start*/
+#Fitz_head{
+    padding: 20px;
+}
+.head_text h6{
+    font-size: 0.9rem;
+    border-bottom: 1px solid red;
+    padding: 5px 0px 5px 40px;
+    
+}
+.head_text span{
+    padding: 0px 12px 5px 3px;
+    position: relative;
+}
+.head_text h5{
+    font-size: 14px;
+    padding:0px 38px;
+    text-transform: uppercase;
+}
+.head_text h4{
+    font-size: 14px;
+    padding: 0px 63px;
+    text-transform: uppercase;
+}
+.head_logo img{
+   margin: 0px 0px 0px 22px;
+}
+#head_nav{
+    background-color:#dc1d1d;
+}
+.nav_info ul{
+    display: flex;
+}
+.box_1::before{
+    position: absolute;
+    content:"";
+    width:10px;
+    height: 10px;
+    bottom: 6px;
+    left: 5%;
+    background-color: black;
+    border-radius: 15px;
+    margin: 2px;
+}
+.box_2::after{
+    position: absolute;
+    content:"";
+    width:10px;
+    height: 10px;
+    bottom: 6px;
+    left: 5%;
+    background-color: black;
+    border-radius: 15px;
+    margin: 2px;
+}
+/*Fitz_head end*/
+
+/*head_nav start*/
+.nav_text{
+    text-align: center;
+    padding: 5px;
+}
+.nav_text a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0px 20px 24px 18px;
+    margin-left: 50px;
+}
+.nav_text a:hover{
+    color: rgb(234, 127, 255);
+}
+/*head_nav end*/
+
+/*Fitz carusel start*/
+#Fitz_carusel{
+    margin-top: -50px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-caption {
+    position: absolute;
+    right: 30%;
+    bottom: 30px;
+    left: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top: 18%;
+}
+
+
+.carousel_text h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75px;
+    font-weight: bold;
+}
+.caru_but{
+        position: absolute;
+        left: 165px;
+        bottom: 130px;
+        color: aliceblue;
+        background-color:#940a0a4f;
+        font-weight: bold;
+        width: 15%;
+        height: 70px;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 34px;
+    height: 17px;
+    margin-right: 2px;
+    margin-left: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 20px;
+}
+/*Fitz carusel end*/
+
+/*cardhover start*/
+.custom_card_img img{
+    position: relative;
+}
+.custom_card{
+    background-color: #dc1d1d;
+}
+.custom_card h4 {
+    position: absolute;
+    top: 18px;
+    right: 90px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.custom_card p{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.custom_card a button {
+    margin-left: 76px;
+    padding: -2px 37px 4px 46px;
+    color: aliceblue;
+    background-color: #00000088;
+    border-radius: 7px;
+}
+.card{
+    margin: 4px;
+}
+/*cardhover end*/
+
+/*img logo start*/
+#logo_img{
+    border-top: 10px solid rgba(0, 0, 0, 0.781);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.788);
+    background-color:  rgb(180 178 176 / 13%);
+}
+.img_logo{
+    padding: 5px;
+    margin: 2px;
+}
+.img_logo2{
+    margin-top: 80px;
+}
+.img_logo3{
+    margin: 33px -92px 5px;
+}
+/*img logo end*/
+
+/*Blog img start*/
+#Blog{
+    background-image: url(Asset/Images/Home-Page-Design_14-\(1\).gif);
+}
+.btn_over{
+    background-color: #f90404;
+    padding: 10px;
+    line-height: 1.0;
+    color: aliceblue;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 70px;
+}
+.overlay_img h4{
+    text-align: center;
+    font-size: 1.0rem;
+    color: red;
+    text-align: center;
+    margin: 1px;
+}
+.overlay_img p{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+}
+.overlay_img{
+    margin-top: 90px;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+/*Blog img end*/
+
+/*tax start*/
+#tax{
+    background-image: url(Asset/Images/Home-Page-Design_12-\(1\).gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tax_back{
+    background-color:#ed7952bf;
+}
+.tax_text{
+    text-align: center;
+    color: #fff;
+    padding: 54px 8px 120px 15px;
+}
+.btn_dar{
+    margin: 10px;
+    padding: 25px 87px 20px 87px;
+}
+/*tax end*/
+/*Fitz comunication start*/
+#common{
+    background-color: black;
+    color: aliceblue;
+    padding: 33px 0px 0px 30px;
+}
+.com_img img{
+    height: auto;
+    max-width: 350px;
+}
+.com_tex{
+    float: left;
+}
+.com_tex h1{
+    font-size: 1.0rem;
+    text-align: left;
+}
+.com_tex p{
+    font-size:15px;
+}
+/*Fitz comunication end*/
+/*from start*/
+#custom_from{
+    padding: 15px;
+}
+.custom_fromtext{
+    background-color: #c12909;
+    text-align: center;
+    color: aliceblue;
+}
+.custom_fromtext h1{
+    font-size: 20px;
+}
+.form-lbl{
+    float: left;
+    line-height: 2.6rem;
+}
+.from_button{
+    text-align: center;
+    padding: 15px;
+}
+button {
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.911);
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.from1{
+    text-align: center;
+}
+ input {
+    overflow: visible;
+    width: 50%;
+    height: 40px;
+}
+label {
+    display: inline-block;
+    margin-bottom: -0.5rem;
+}
+/*from end*/
+/*footer start*/
+#footer_icon{
+    background-color: rgb(26, 25, 25);
+}
+.custom_footer_text{
+    color: #fff;
+    padding: 5px;
+    margin: 2px;
+}
+.footer_text{
+    color: #fff;
+    padding: 5px;
+    margin: 2px;
+}
+.custom_fromlist1 ul li{
+list-style-type: none;
+}
+.custom_fromlist1 ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    line-height: 1.9rem;
+    transition: 0.5s;
+}
+.custom_fromlist1 img{
+    padding: 6px;
+}
+.custom_fromlist2{
+    display: flex;
+}
+.custom_fromlist2 ul li {
+    list-style-type:none;
+}
+.custom_fromlist2 ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+.custom_fromlist1 ul li a:hover{
+    transform: translateY(-15px);
+  color: blue; 
+}
+.custom_fromlist2 ul li a:hover{
+    color: #c12909;
+  
+    
+}
+.footer_text{
+    border-bottom: 3px solid red;
+}
+.footer_text h1{
+    text-align: left;
+}
+#footer2{
+    background-color: black;
+    color: blue;
+  }
+.list2 li{
+margin-left: 150px;
+}
+.footer_info {
+    color: #fff;
+    text-align: center;
+    border-top: 2px solid;
+    padding: 10px;
+}
+.svg-inline--fa {
+    display: var(--fa-display,inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    color: red;
+    transform: scale(1.5);
+    transition: width 2s;
+}
+/*footer end*/
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */

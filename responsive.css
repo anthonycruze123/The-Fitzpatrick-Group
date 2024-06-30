@@ -1,0 +1,45 @@
+
+@media(max-width:767px){
+    .head_text h6 {
+        font-size: 0.9rem;
+        border-bottom: 1px solid red;
+        padding: 5px 0px 0px 82px;
+    }
+    .head_text h5{
+        font-size: 14px;
+        padding:0px 85px;
+        text-transform: uppercase;
+    }
+    .head_text h4{
+        font-size: 14px;
+        padding: 0px 86px;
+        text-transform: uppercase;
+    }
+    .head_logo img {
+        /* margin: 0px 0px 0px 0px; */
+        width: 85%;
+    }
+    .nav_text a {
+        padding: 0px 20px 27px 14px;
+        margin-left: 15px;
+    }
+    .custom_card a button {
+        margin-left: 98px;
+        padding: -2px 37px 4px 46px;
+        color: aliceblue;
+        background-color: #00000088;
+        border-radius: 7px;
+    }
+    .com_img img {
+        height: auto;
+        max-width: 300px;
+    }
+}
+@media(min-width:767px){
+}
+@media(min-width:768px){
+}
+@media(min-width:992px){
+}
+@media(min-width:1200px){
+}
